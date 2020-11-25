@@ -9,7 +9,7 @@ This document describe how to send SMS,EMAIL,APP_NOT using Oasis notification ta
 | context_type  | PATIENT_ID,STAFF_ID  |
 | context_id  |  patient_id,staff_id |
 | status  |  `P` |
-| payload  | json object in the following format  `{"to":"<mobile_no>" , "message":"<message to send>" }`  |
+| payload  | json object in the following format  `{"mobileNo":"<mobile_no>" , "message":"<message to send>" }`  |
 
 ## E-MAIL 
 | Column Name |  Description  |
